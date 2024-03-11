@@ -9,7 +9,7 @@ jobs:
       aws-region: us-east-2
 
     steps:
-      - name: Authenticate against AWS
+      - name: Authenticate Against AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
